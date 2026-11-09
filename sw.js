@@ -1,11 +1,13 @@
-const CACHE_NAME = "question-island-v1";
+const CACHE_NAME = "question-island-v2";
 const APP_FILES = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./icon.svg",
   "./icon-192.png",
-  "./icon-512.png"
+  "./icon-512.png",
+  "./question-data.js",
+  "./vocab-data.js"
 ];
 
 self.addEventListener("install", event => {
